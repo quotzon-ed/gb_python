@@ -1,0 +1,5 @@
+n = input("Type a number:\n")
+n_2 = int(n*2)
+n_3 = int(n*3)
+n = int(n)
+print(f"{n} + {n_2} + {n_3} = {n + n_2 + n_3}")
