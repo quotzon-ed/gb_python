@@ -1,4 +1,4 @@
-a = int(input("Type start distance value:\n"))
+a = int(input("Type start distance value:\n")) #Правильнее все же преобразовывать в float, т.к. далее все равно будет расчет в числах с плавающей точкой. То же касается и следующей строки
 b = int(input("Type end distance value:\n"))
 duration = 1
 print(f"Day {duration} - {a} km.")
