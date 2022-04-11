@@ -1,0 +1,1 @@
+print([v for v in range(20, 241) if v % 21 == 0 or v % 20 == 0])
